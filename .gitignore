@@ -1,0 +1,49 @@
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.gradle/
+/local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+*.log
+.navigation/
+output.json
+
+# Android Studio
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Gradle files
+.gradle/
+build/
+/*/build/
+
+# Local configuration file
+local.properties
+
+# Mac OS
+.DS_Store
+
+# Node.js / Web
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
