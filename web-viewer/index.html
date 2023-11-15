@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Flam - Frame Viewer</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 20px; background:#111; color:#eee; }
+      .card { background:#222; padding:16px; border-radius:8px; max-width:900px; margin:auto; }
+      img { max-width:100%; display:block; margin:12px 0; border-radius:4px; }
+      .meta { font-size:14px; color:#bbb; }
+      .toggle-btn { 
+        background: #444; 
+        color: white; 
+        border: none; 
+        padding: 8px 16px; 
+        border-radius: 4px; 
+        cursor: pointer; 
+        margin: 12px 0; 
+      }
+      .toggle-btn:hover { background: #555; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Flam - Frame Viewer</h2>
+      <div class="controls">
+        <button id="toggleBtn" class="toggle-btn">Show Raw Camera Feed</button>
+      </div>
+      <div id="processed-view">
+        <h3>Processed Frame (Edge Detection)</h3>
+        <p class="meta">This shows the processed frame with edge detection. Captured from the Android app.</p>
+        <!-- Upload your processed image here with name processed_sample.png -->
+        <img id="processed-frame" src="processed_sample.png" alt="Processed frame sample" />
+      </div>
+      <div id="raw-view" style="display:none;">
+        <h3>Raw Camera Feed</h3>
+        <p class="meta">This shows the raw camera feed without processing. Captured from the Android app.</p>
+        <!-- Upload your raw image here with name raw_sample.png -->
+        <img id="raw-frame" src="raw_sample.png" alt="Raw camera frame sample" />
+      </div>
+      <div id="stats" class="meta"></div>
+    </div>
+    <script type="module" src="./dist/main.js"></script>
+  </body>
+</html>
