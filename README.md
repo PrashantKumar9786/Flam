@@ -56,6 +56,30 @@ This project demonstrates real-time camera processing with OpenCV, OpenGL ES ren
   - `src/main.ts` — TypeScript implementation for view toggling and stats display
   - `dist/main.js` — Compiled TypeScript
 
+# FLAM – Native Camera Processing + Web Viewer
+
+FLAM is a demo project that shows a full pipeline from **Android camera frames** → **native C++/OpenCV processing via JNI** → **OpenGL rendering on device**, plus a **TypeScript web viewer** for inspecting raw vs processed frames.
+
+---
+
+## Screenshots
+
+> Replace the image paths with your actual screenshots.
+
+- **Android App View**
+
+  ![WhatsApp Image 2025-11-16 at 20 45 04_8484ded1](https://github.com/user-attachments/assets/978a2917-8819-4ea6-b9bd-ad2373d37ff7)
+![WhatsApp Image 2025-11-16 at 20 45 04_d4bf6d1a](https://github.com/user-attachments/assets/0bc0f40e-db63-40a0-ac3a-d6a53fdf7d33)
+
+
+- **Web Viewer**
+
+![WhatsApp Image 2025-11-16 at 20 45 26_e3ed3ef8](https://github.com/user-attachments/assets/8e0e43e5-44b0-422a-b4fa-4578c0898dc0)
+![WhatsApp Image 2025-11-16 at 20 45 25_c787991c](https://github.com/user-attachments/assets/db064d7e-00ce-48dd-812f-8fdab03813d9)
+
+---
+
+
 ## Requirements Checklist
 
 ### 1. Camera Feed Integration ✅
