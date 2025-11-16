@@ -1,4 +1,4 @@
-# Flam Camera Processing App
+# Real-Time Edge Detection Viewer
 
 This project demonstrates real-time camera processing with OpenCV, OpenGL ES rendering, and a TypeScript web viewer.
 
@@ -63,8 +63,6 @@ FLAM is a demo project that shows a full pipeline from **Android camera frames**
 ---
 
 ## Screenshots
-
-> Replace the image paths with your actual screenshots.
 
 - **Android App View**
 
